@@ -1,0 +1,49 @@
+//
+//  KL-PrefixHeader.pch
+//  KLRecreationFamily
+//
+//  Created by 王园园 on 16/7/11.
+//  Copyright © 2016年 Wangyuanyuan. All rights reserved.
+//
+
+#ifndef KL_PrefixHeader_pch
+#define KL_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//#ifdef __OBJC__
+
+
+#import <UIKit/UIKit.h>
+#import "AppDelegate.h"
+
+///配置相关
+#import "ConfigDefine.h"
+#import "EnumDefine.h"
+
+
+///用户相关
+
+///网络相关
+#import "NetWorkManager/NetworkConfigue.h"
+#import "HttpCommonModel.h"
+#import "HttpServer.h"
+
+///工具类相关
+#import "UIFactory.h"
+#import "Utils/CommonUtils.h"
+#import "NSDictionary+SafeExpectations.h"
+
+
+//第三方相关
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <AFNetworking/AFNetworking.h>
+
+
+
+
+
+
+
+
+#endif /* KL_PrefixHeader_pch */
